@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#data and aux
+data/
+Biological-Age-Project/
+
 # Distribution / packaging
 .Python
 build/
