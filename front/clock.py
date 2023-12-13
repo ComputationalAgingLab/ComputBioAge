@@ -8,9 +8,9 @@ import textwrap
 #tmp 
 import sys
 import os
-SCRIPT_DIR = os.path.dirname(os.path.abspath('/home/shappiron/Desktop/CAL/univariate_inversed_ensembler/kdm'))
-sys.path.append(os.path.dirname(SCRIPT_DIR))
-from univariate_inversed_ensembler.kdm.kdm import KlemeraDoubalEstimator
+# SCRIPT_DIR = os.path.dirname(os.path.abspath('/home/shappiron/Desktop/CAL/univariate_inversed_ensembler/kdm'))
+# sys.path.append(os.path.dirname(SCRIPT_DIR))
+from kdm.kdm import KlemeraDoubalEstimator
 
 #tmp - move to a separate file
 feature_include = {
